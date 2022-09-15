@@ -7,3 +7,4 @@ document.write(myName);
 document.write(myAge);
 document.write(diploma);
 document.write(passed);
+
