@@ -1,4 +1,4 @@
-let budget = 100;
+let budget = prompt("Voer alstublieft uw budget in");
 let product = 60;
 let text = document.getElementById("textchange");
 
