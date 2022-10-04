@@ -17,7 +17,8 @@ let answer3 = num1 * num2;
 console.log(answer3);
 
 let answer4 = num1 / num2;
-console.log(answer4);document.write(myName);
+console.log(answer4);
+document.write(myName);
 document.write(myAge);
 document.write(diploma);
 document.write(passed);
