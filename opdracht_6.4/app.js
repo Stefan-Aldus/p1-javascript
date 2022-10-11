@@ -17,7 +17,7 @@ function checkInput(num4, num5) {
     console.log(num4);
   } else {
     console.log(num5);
-  }
+  } 
 }
 checkInput(9, 20);
 
