@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookiewall Opdracht Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button onclick="clickme()" id="clickme">Click Me</button>
+
+    <div class="modal" id="modal">
+      <div id="input">
+        <button onclick="closemodal()">x</button>
+        <label for="age">Please enter your age:</label>
+        <input type="number" name="age" id="age" />
+        <button onclick="enterage()">Confirm</button>
+      </div>
+    </div>
+
+    <section class="cookiewall" id="cookiewall">
+      <p>Helaas, Je bent te jong</p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
